@@ -83,10 +83,6 @@ def delete(id):
     return redirect(url_for('index'))
 
 
-@app.route('/download', methods=['GET'])
-def download():
-    return "Download page"
-
 
 
 if __name__ == "__main__":
